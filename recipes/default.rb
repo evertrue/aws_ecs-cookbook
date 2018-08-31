@@ -73,6 +73,8 @@ iptables_rule 'host_iam_dnat_51679' do
 end
 
 iptables_rule 'host_iam_redirect_51679' do
-   lines '-A OUTPUT -d 169.254.170.2 -p tcp -m tcp --dport 80 -j REDIRECT --to-ports 51679'
-   table :nat
+  lines '-A OUTPUT -d 169.254.170.2 -p tcp -m tcp --dport 80 -j REDIRECT --to-ports 51679'
+  table :nat
 end
+
+include_recipe 'sysctl'

@@ -7,7 +7,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.2'
 
 depends 'aufs'
-depends 'sysctl', '~> 1.0.5'
+depends 'sysctl'
 depends 'iptables', '~> 4.2.0'
-depends 'docker', '~> 2.15.28'
-depends 'chef-apt-docker', '~> 2.0.4'
+depends 'docker'
+depends 'chef-apt-docker'
