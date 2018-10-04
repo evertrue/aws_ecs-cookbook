@@ -7,6 +7,7 @@
 include_recipe 'aufs'
 include_recipe 'iptables'
 include_recipe 'chef-apt-docker'
+include_recipe 'storage'
 
 docker_service 'default' do
   host           'unix:///var/run/docker.sock'
