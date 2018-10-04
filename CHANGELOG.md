@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the aws_ecs-cookbook cookbook.
 
+## 0.1.7
+- Dan - Add AWS IAM User for ECS
+
 ## 0.1.6
 - Dan - Add dependency for storage recipe
 
