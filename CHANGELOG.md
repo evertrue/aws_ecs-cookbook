@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the aws_ecs-cookbook cookbook.
 
+## 0.1.6
+- Dan - Add dependency for storage recipe
+
 ## 0.1.5
 - Dan - Include storage recipe in default cookbook
 
