@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the aws_ecs-cookbook cookbook.
 
+## 0.1.4
+- Dan - Update default attributes to add external EBS storage mount
+
 ## 0.1.3
 - Dan - Update docker_service to use EBS mount for external graph storage
 
