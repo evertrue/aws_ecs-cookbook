@@ -2,6 +2,15 @@
 
 This file is used to list changes made in each version of the aws_ecs-cookbook cookbook.
 
+## 0.1.3
+- Dan - Update docker_service to use EBS mount for external graph storage
+
+## 0.1.2
+- ???
+
+## 0.1.1
+- ???
+
 ## 0.1.0
 - [your_name] - Initial release of aws_ecs-cookbook
 
