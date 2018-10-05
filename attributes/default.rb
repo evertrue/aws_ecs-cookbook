@@ -9,3 +9,5 @@ default['storage']['ebs_volumes']['vol1'] = {
   'delete_on_termination' => false,
   'volume_type' => 'gp2'
 }
+
+override['storage'] = node['storage']

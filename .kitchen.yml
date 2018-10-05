@@ -35,3 +35,10 @@ suites:
       etc_environment:
         VAULT_ADDR: http://vault.service.dev-us-east-1.consul:8200
         VAULT_TOKEN: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+      storage:
+        ebs_volumes:
+          vol1:
+            device: /dev/xvde
+            size: 100
+            delete_on_termination: false
+            volume_type: gp2
