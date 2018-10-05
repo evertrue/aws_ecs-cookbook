@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the aws_ecs-cookbook cookbook.
 
+## 0.1.8
+- Dan - Add storage overrides for ebs volumes
+
 ## 0.1.7
 - Dan - Add AWS IAM User for ECS
 
