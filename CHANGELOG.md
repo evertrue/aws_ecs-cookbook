@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the aws_ecs-cookbook cookbook.
 
+## 0.1.14
+- Dan - Use new version of storage cookbook
+
 ## 0.1.13
 - Dan - Ignore ephemeral mounts
 
