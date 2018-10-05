@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the aws_ecs-cookbook cookbook.
 
+## 0.1.13
+- Dan - Ignore ephemeral mounts
+
 ## 0.1.12
 - Dan - Use xvdf as ebs mount 
 
