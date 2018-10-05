@@ -9,7 +9,7 @@ default['filesystem']['by_pair'] = node['filesystem2']['by_pair']
 
 default['storage']['use_storage_aws_credentials'] = true
 default['storage']['ebs_volumes']['vol1'] = {
-  'device' => '/dev/xvdg',
+  'device' => '/dev/xvdf',
   'size' => 100,
   'delete_on_termination' => false,
   'volume_type' => 'gp2'
