@@ -7,6 +7,7 @@ default['filesystem']['by_mountpoint'] = node['filesystem2']['by_mountpoint']
 default['filesystem']['by_device'] = node['filesystem2']['by_device']
 default['filesystem']['by_pair'] = node['filesystem2']['by_pair']
 
+default['storage']['ignore_ephemeral_mounts'] = true
 default['storage']['use_storage_aws_credentials'] = true
 default['storage']['ebs_volumes']['vol1'] = {
   'device' => '/dev/xvdf',
