@@ -8,7 +8,7 @@ default['filesystem']['by_device'] = node['filesystem2']['by_device']
 default['filesystem']['by_pair'] = node['filesystem2']['by_pair']
 
 default['storage']['ebs_volumes']['vol1'] = {
-  'device' => '/dev/xvde',
+  'device' => '/dev/xvdg',
   'size' => 100,
   'delete_on_termination' => false,
   'volume_type' => 'gp2'
