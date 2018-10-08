@@ -3,10 +3,6 @@ default['aws_ecs']['data_dir'] = '/datadir'
 default['aws_ecs']['log_file'] = '/log/ecs-agent.log'
 default['aws_ecs']['aws_api_user'] = 'Ecs'
 
-default['filesystem']['by_mountpoint'] = node['filesystem2']['by_mountpoint']
-default['filesystem']['by_device'] = node['filesystem2']['by_device']
-default['filesystem']['by_pair'] = node['filesystem2']['by_pair']
-
 default['storage']['ignore_ephemeral_mounts'] = true
 default['storage']['use_storage_aws_credentials'] = true
 default['storage']['ebs_volumes']['vol1'] = {
