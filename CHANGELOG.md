@@ -4,6 +4,10 @@ This file is used to list changes made in each version of the aws_ecs-cookbook c
 
 ## 0.1.15
 
+- Dan - Add chef_server as a valid source
+
+## 0.1.15
+
 - Dan - Move filesystem2 attribute overrides from ecs cookbook to storage cookbook
 
 ## 0.1.14
