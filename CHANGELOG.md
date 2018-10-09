@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of the aws_ecs-cookbook cookbook.
 
+## 0.1.17
+
+- Dan - Use data_root since graph was deprecated
+
 ## 0.1.16
 
 - Dan - Add chef_server as a valid source
