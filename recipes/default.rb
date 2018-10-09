@@ -14,7 +14,7 @@ docker_service 'default' do
   install_method 'package'
   storage_driver 'aufs'
   action         %i(create start)
-  graph          '/mnt/ebs0/docker'
+  data_root      '/mnt/ebs0/docker'
 end
 
 %w(/etc/ecs /var/log/ecs /var/lib/ecs/data).each do | filename |
