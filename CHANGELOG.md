@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of the aws_ecs-cookbook cookbook.
 
+## 0.1.19
+
+- Dan - Use strict version matching for storage cookbook version
+
 ## 0.1.18
 
 - Dan - Bump docker cookbook version
